@@ -1,5 +1,5 @@
-import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { NgModule } from '@angular/core';
 import { LoginComponent } from './login/login.component';
 import { LogoutComponent } from './logout/logout.component';
 
@@ -12,6 +12,7 @@ import { LogoutComponent } from './logout/logout.component';
   ],
   imports: [
     CommonModule
-  ]
+  ],
+  exports: []
 })
 export class UserModule { }
